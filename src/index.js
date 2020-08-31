@@ -74,6 +74,7 @@ const LaunchList = (arr) => {
 }
 
 uzetiSveBrodove().then(res => {
-    app.appendChild(LaunchList(res))
+    console.log(res)
+    app.appendChild(LaunchList(res.data))
 })
 // pokusao sam da uradim koliko sam mogao
