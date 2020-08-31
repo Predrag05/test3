@@ -69,7 +69,7 @@ const LaunchList = (arr) => {
     arr.forEach(launch => {
         launchList.appendChild(Launch(launch))
     })
-    add.append(launchList)
+    return launchList
     
 }
 
